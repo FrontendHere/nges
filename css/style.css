@@ -82,7 +82,7 @@ body{
 	line-height: 40px;
 }
 .catalog{
-	padding-bottom: 20px;
+	padding-bottom: 53px;
 }
 .title{
 	padding-top: 35px;
@@ -176,7 +176,7 @@ body{
 }
 .delivery-map-wrapper{
 	background-color: #ebebeb;
-	padding-bottom: 20px;
+	padding-bottom: 53px;
 }
 .delivery-map{
 	background: url(../img/delivery-map.png) no-repeat;
@@ -282,6 +282,7 @@ body{
 }
 .partners{
 	padding-bottom: 60px;
+	padding-top: 53px;
 }
 .partners img{
 	max-width: 100%;
@@ -519,4 +520,28 @@ label{
 }
 .seq-in{
 	background-color: #fff;
+}
+
+@keyframes up-down{
+	from{
+		margin-top: 0;
+	}
+	to{
+		margin-top: 5px;
+	}
+}
+@-webkit-keyframes up-down{
+	from{
+		margin-top: 0;
+	}
+	to{
+		margin-top: 5px;
+	}
+}
+.up-down{
+	    position: absolute;
+    left: 50%;
+}
+.up-down i{
+	animation: up-down 1s infinite alternate;
 }
