@@ -545,3 +545,8 @@ label{
 .up-down i{
 	animation: up-down 1s infinite alternate;
 }
+@media (max-width: 991px){
+	.up-down{
+		display: none;
+	}
+}

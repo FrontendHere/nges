@@ -2,9 +2,9 @@ $(document).ready(function () {
 
 	var heightMap = $(window).height() - $('.footer').innerHeight();
 
-	if($(window).height() > 659 && $(window).width() > 1199 ){
+	/*if($(window).height() > 659 && $(window).width() > 1199 ){
 		$('.map').css('height', heightMap);
-	}
+	}*/
 	
 	//Открытие, закрытие окна описания конкретной продукции
 	$('.catalog-item').click(function() {		
