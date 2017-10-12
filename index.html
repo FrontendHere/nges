@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="fsvs" lang="ru">
+<html lang="ru">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
@@ -21,11 +21,11 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/prefixfree.min.js"></script>
 	<script type="text/javascript" src="js/html5shiv.min.js"></script>	
-	<script type="text/javascript" src="js/fsvs.js"></script>
-	<script type="text/javascript" src="js/bundle.js"></script>
+	<!--<script type="text/javascript" src="js/fsvs.js"></script>
+	<script type="text/javascript" src="js/bundle.js"></script>-->
 	<script type="text/javascript" src="js/script.js"></script>
 
-	<script type="text/javascript">
+	<!--<script type="text/javascript">
 		jQuery(document).ready(function($){
             if($(window).height() > 659 && $(window).width() > 1199 ){
                 var slider = $.fn.fsvs({
@@ -49,15 +49,13 @@
                 });
             }
         });
-	</script>
+	</script>-->
 
 	</head>
 <body>
 	<!--[if lte IE 9]>
         <p class="browserupgrade">Вы используете <strong>устаревший</strong> Internet Explorer. Пожалуйста, <a href="https://support.microsoft.com/ru-kz/help/17621/internet-explorer-downloads">обновите Ваш интернет-браузер до 11 версии</a>.</p>
     <![endif]-->
-    <div id="fsvs-body">
-    	<div class="slide">
                 <header class="header">
                     <div class="container">
                         <div class="row">
@@ -92,12 +90,13 @@
         своевременная комплектация объектов наших Партнеров.</p>
                             <p class="banner-content__p">В нашей команде сегодня собраны лучшие специалисты в области поставок 
         электротехнической продукции. </p>
+		        			<a href="#slide2">
+		                    	<i class="fa fa-angle-double-down arrow-down-map" aria-hidden="true"></i> 
+		                    </a>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
-        </div>
-        <div class="slide">
-                    <div class="catalog">
+                    <div class="catalog" id="slide2">
                         <div class="container">
                             <div class="row">
                                 <div class="col-xs-12">
@@ -288,13 +287,14 @@
             								<li class="catalog-item-description-ul__li">Многоцелевые трансформаторы</li>
             							</ul>
                                     </div>
+                                    <a href="#slide3">
+				                    	<i class="fa fa-angle-double-down arrow-down-map" aria-hidden="true"></i> 
+				                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
-            </div>
-            <div class="slide">
-                    <div class="delivery-map-wrapper">
+                    <div class="delivery-map-wrapper" id="slide3">
                     	<div class="container">
                     		<p class="title">ГЕОГРАФИЯ ПОСТАВОК</p>
                     		<div class="delivery-map">
@@ -376,9 +376,7 @@
                     		</div>
                     	</div>
                     </div>
-            </div>
-            <div class="slide">
-                    <div class="flex">
+                    <div class="flex" id="slide4">
                     	<div class="container flex flex-direction-column">
                     		<p class="title title-ul-pc">Объекты</p>
             	        	<div class="delivery-ul-pc">	        		
@@ -419,9 +417,7 @@
             	        </div>
             	        
                     </div>
-            </div>
-            <div class="slide">
-                    <div class="partners">
+                    <div class="partners" id="slide5">
                     	<div class="container">
                     		<div class="row">
                     			<div class="col-xs-12">
@@ -490,9 +486,7 @@
                     		</div>
                     	</div>
                     </div>
-            </div>
-            <div class="slide">
-                    <div class="map">
+                    <div class="map" id="slide6">
                     	<div class="container">
                     		<div class="row">
                     			<div class="col-xs-12">
@@ -521,7 +515,5 @@
                     		</div>
                     	</div>
                     </footer>
-            </div>
-	</div>
 </body>
 </html>
